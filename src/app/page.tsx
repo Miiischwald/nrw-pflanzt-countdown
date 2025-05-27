@@ -125,9 +125,7 @@ export default function Home() {
           <div className="absolute -top-24 -right-24 w-48 h-48 bg-gradient-to-br from-emerald-200/40 to-green-200/30 rounded-full blur-2xl animate-pulse-slow"></div>
           
           <div className="relative">
-            <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-gray-900 to-emerald-800 bg-clip-text text-transparent">
-              Countdown bis zum Launch
-            </h2>
+    
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
               {[
