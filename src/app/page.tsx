@@ -25,7 +25,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const targetDate = new Date('2025-06-07T18:00:00').getTime();
+    const targetDate = new Date('2025-06-14T18:00:00').getTime();
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime();
