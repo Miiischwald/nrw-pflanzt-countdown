@@ -25,7 +25,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    const targetDate = new Date('2025-06-14T18:00:00').getTime();
+    const targetDate = new Date('2025-06-18T09:00:00').getTime();
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime();
@@ -110,7 +110,7 @@ export default function Home() {
             <div className="inline-block bg-gradient-to-r from-emerald-50 to-green-50 border border-emerald-200/60 rounded-xl sm:rounded-2xl px-6 sm:px-10 py-3 sm:py-5 shadow-lg sm:shadow-xl animate-fade-in-up hover:shadow-xl sm:hover:shadow-2xl transition-all duration-500 hover:scale-105 mx-2" style={{animationDelay: '600ms'}}>
               <p className="text-emerald-800 font-semibold text-base sm:text-xl leading-tight">
                 Live-Start: <br className="sm:hidden" />
-                <span className="font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent">Samstag, 14. Juni 2025 um 18:00 Uhr</span>
+                <span className="font-bold bg-gradient-to-r from-emerald-600 to-green-700 bg-clip-text text-transparent">Mittwoch, 18. Juni 2025 um 09:00 Uhr</span>
               </p>
             </div>
           </div>
