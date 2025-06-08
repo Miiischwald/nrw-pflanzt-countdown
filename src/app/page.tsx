@@ -68,7 +68,7 @@ export default function Home() {
         <div className="absolute top-1/3 left-1/2 w-48 h-48 sm:w-64 sm:h-64 bg-gradient-to-r from-green-200/15 sm:from-green-200/20 to-emerald-200/15 sm:to-emerald-200/20 rounded-full blur-xl sm:blur-2xl animate-pulse-slow"></div>
       </div>
 
-      {/* Floating Particles - Fewer on mobile */}
+      {/* Floating Particles - Fewer on  mobile */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {[...Array(window.innerWidth < 768 ? 6 : 12)].map((_, i) => (
           <div
